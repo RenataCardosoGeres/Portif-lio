@@ -1,0 +1,76 @@
+body {
+  background-color: #ededf3;
+}
+
+img {
+  width: 220px;
+  height: 300px;
+  border-radius: 100%;
+  border: 5px solid orange;
+}
+
+/* Definições de cores */
+:root {
+  --bg-color: #a3c0fd; /* Cor de fundo */
+  --text-color: #000000ee; /* Cor do texto */
+  --link-color: #084af1; /* Cor dos links */
+  --highlight-color: #f29f0f; /* Cor de destaque */
+}
+
+table {
+  color: #000000ee;
+  background-color: #f0b75b;
+}
+/* Estilização do formulário */
+form {
+  max-width: 500px; /* Largura máxima do formulário */
+  margin: 30px auto; /* Margem superior e inferior */
+  padding: 40px; /* Preenchimento */
+  background-color: var(--bg-color); /* Cor de fundo do formulário */
+  border: 1px solid #060606; /* Borda do formulário */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra do formulário */
+}
+/* Estilização dos campos do formulário */
+label {
+  display: block; /* Exibir labels como blocos */
+  margin-bottom: 10px; /* Margem inferior dos labels */
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%; /* Largura dos campos de texto */
+  padding: 10px; /* Preenchimento dos campos de texto */
+  margin-bottom: 20px; /* Margem inferior dos campos de texto */
+  border: 1px solid #111111; /* Borda dos campos de texto */
+}
+
+input[type="radio"] {
+  margin-right: 10px; /* Margem direita dos radios */
+}
+
+input[type="checkbox"] {
+  margin-right: 10px; /* Margem direita dos checkboxes */
+}
+
+/* Estilização dos links */
+a {
+  color: var(--link-color); /* Cor dos links */
+  text-decoration: none; /* Remover sublinhado dos links */
+}
+
+a:hover {
+  color: var(
+    --highlight-color
+  ); /* Cor de destaque dos links ao passar o mouse */
+}
+
+/* Estilização do footer */
+footer {
+  background-color: var(--bg-color); /* Cor de fundo do footer */
+  padding: 20px; /* Preenchimento do footer */
+  text-align: center; /* Alinhar texto do footer ao centro */
+}
+
+footer p {
+  margin-bottom: 10px; /* Margem inferior dos parágrafos do footer */
+}
